@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "jamesbook",
+    "slug": "jamesbook",
+    "privacy": "unlisted",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "0.0.4",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "backgroundColor": "#022D60",
+      "resizeMode": "contain"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jamesbook.Staging"
+    },
+    "android": {
+      "package": "com.jamesbook.Staging"
+    }
+  }
+}

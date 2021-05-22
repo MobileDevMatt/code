@@ -1,0 +1,30 @@
+// cache state keys
+export const cacheKey = {
+  clubFeed: 'clubFeed',
+  inbox: 'inbox',
+  invites: 'invites',
+  notifications: 'notifications',
+  requests: 'requests',
+  myUser: 'myUser',
+  readerHomeFeed: 'readerHomeFeed',
+  userProfile: 'userProfile',
+  myAuthor: 'myAuthor',
+  author: 'author',
+  authorBooks: 'authorBooks', // #TODO Remove
+  authorAddToShelfFlowCurrentBook: 'authorAddToShelfFlowCurrentBook',
+  myShelfBook: 'myShelfBook',
+  discussionGuide: 'discussionGuide',
+  discussionGuidePrompt: 'guidePrompt',
+  currentCognitoUser: 'currentCognitoUser',
+  currentUserRole: 'currentUserRole',
+  featuredClubs: 'featuredClubs',
+  selectedClub: 'selectedClub',
+  selectedClubMembers: 'selectedClubMembers',
+  book: 'book',
+  following: 'following',
+  followers: 'followers',
+  liveConversations: 'liveConversations',
+  liveConversation: 'liveConversation',
+  // Admin
+  authors: 'authors',
+}
